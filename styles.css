@@ -3,6 +3,7 @@ html{
 }
 body{
 background: #F0F8FF;
+min-height: 100%;
 }
 h1{
 }
@@ -13,6 +14,10 @@ h1{
   background-position: center;
   color: white;
 }
+.container{
+  padding-top: 20%;
+  padding-left: 20%;
+}
   #content{
     text-align: center;
     font-family: 'Cabin Sketch', cursive;
@@ -21,6 +26,7 @@ h1{
            0px 8px 13px rgba(0,0,0,0.1),
            0px 18px 23px rgba(0,0,0,0.1);
          }
+}
 .navbar-dark{
     font-family: 'Rock Salt', cursive;
     color: white;
@@ -30,20 +36,8 @@ h1{
   min-height: 300px;
   min-width: 300px;
 }
-.business{
-background: url("http://source.unsplash.com/GWe0dlVD9e0");
-height: 300px;
-background-size: 100% 100%;
-background-repeat: no-repeat;
-}
 .style8 {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-.gaming{
-background: url("http://source.unsplash.com/kr-jmsASg8M");
-height: 300px;
-background-size: 100% 100%;
-background-repeat: no-repeat;
 }
