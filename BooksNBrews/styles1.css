@@ -1,12 +1,12 @@
 .bg-custom {
-  background-color: linear-gradient(#5A3F37, #2C7744);
-  font-family: 'Cinzel Decorative', cursive;
+  background-color: linear-gradient(#5a3f37, #2c7744);
+  font-family: "Cinzel Decorative", cursive;
   font-size: 1.7rem;
 }
 
 .content {
   text-align: center;
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: "Averia Serif Libre", cursive;
   padding-top: 5%;
   text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
@@ -15,7 +15,7 @@
   text-align: center;
   background: url("bg-paper.jpg");
   background-size: cover;
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: "Averia Serif Libre", cursive;
 }
 
 .style7 {
@@ -55,7 +55,7 @@ body {
   min-height: 100%;
   background: url(bg-wood.jpg);
   background-size: cover;
-  color: #FFFAF0;
+  color: #fffaf0;
   font-weight: 700;
 }
 
@@ -65,4 +65,25 @@ h3 {
 
 p {
   font-size: 1.3rem;
+}
+footer {
+  font-size: 0.8rem;
+  background: #d2b48c;
+  text-align: left;
+  margin-bottom: 0%;
+  color: black;
+  font-family: "Cinzel Decorative", cursive;
+}
+.col-sm-4 p {
+  font-size: 0.8rem;
+  color: black;
+}
+.img-thumbnail {
+  width: 350px;
+  margin: 15px 15px;
+}
+.col-md-4 h3 {
+  font-family: "Averia Serif Libre", cursive;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  font-size: 1 rem;
 }
