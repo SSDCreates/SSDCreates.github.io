@@ -66,3 +66,8 @@ h3 {
 p {
   font-size: 1.3rem;
 }
+footer{
+  color: black;
+  text-shadow: none;
+  background-color: #FFEFD5;
+}
