@@ -55,7 +55,7 @@ grid-row : 8;
 font-family : 'Eagle Lake', cursive;
 }
 @media (max-width:480px) {
-#content {
+body #content {
 height : 100%;
 font-size : 0.8rem;
 }
@@ -70,18 +70,22 @@ border-bottom : 1px solid black;
 #content .life {
 grid-row : 3;
 grid-column : 1;
+justify-self: start;
 }
 #content .passion {
 grid-row : 4;
 grid-column : 1;
+justify-self: end;
 }
 #content .business {
 grid-row : 5;
 grid-column : 1;
+justify-self: start;
 }
 #content .products {
 grid-row : 6;
 grid-column : 1;
+justify-self: end;
 }
 #content .ending {
 grid-row : 7;
