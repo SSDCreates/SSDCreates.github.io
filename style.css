@@ -1,123 +1,90 @@
-html{
-height: 100%;
+html {
+height : 100%;
 }
-
 html body {
-height: 100%;
-  text-align: center;
-  background: #000 url(bg-cyber.jpg);
-  background-size: cover;
-
+height : 100%;
+text-align : center;
+background : url(bg-cyber.jpg) #000;
+background-size : cover;
+padding: 0;
+margin: 0;
 }
-
-#content {
-  display: grid;
-
-  font-size: 1.5rem;
-  color: black;
-  grid-gap: 10px;
-
+body #content {
+display : grid;
+font-size : 1.5rem;
+color : black;
+padding: 0;
+margin: 0;
+max-height: 100%;
 }
 #content > * {
-  align-content: center;
-	min-height: 100%;
-  font-family: 'Eagle Lake', cursive;
-  text-shadow:
-   -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-   -1px 1px 0 #fff,
-    1px 1px 0 #fff;
-   
+align-content : center;
+font-family : 'Eagle Lake', cursive;
+text-shadow : -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
-
-#content a{
-text-decoration: none;
-color: black;
+#content a {
+text-decoration : none;
+color : black;
 }
-
 #content .logo {
-  grid-row: 2;
-  grid-column: 2;
-  justify-self: center;
-  align-self: center;
-  font-family: "Rock Salt", cursive;
-  color: black;
+grid-row : 1;
+grid-column : 2;
+font-family : "Rock Salt", cursive;
+color : black;
+font-size: 1.3rem;
 }
-
 #content .life {
-  grid-row: 4;
-  grid-column: 1;
-  justify-self: start;
-text-style-decoration: none;
+grid-row : 4;
+grid-column : 1;
 }
 #content .passion {
-  grid-row: 4;
-  grid-column: 3;
-  justify-self: end;
+grid-row : 5;
+grid-column : 3;
 }
-
 #content .business {
-  grid-row: 8;
-  grid-column: 1;
-  justify-self: start;
+grid-row : 6;
+grid-column : 1;
 }
 #content .products {
-  grid-row: 8;
-  grid-column: 3;
-  justify-self: end;
+grid-row : 7;
+grid-column : 3;
 }
-#content footer {
-  grid-column: 2;
-  grid-row: 9;
-  font-family: 'Eagle Lake', cursive;
-
+#content .ending {
+grid-column : 2;
+grid-row : 8;
+font-family : 'Eagle Lake', cursive;
 }
-@media(max-width: 480px){
-
-  #content{
-height: 100%;
-    font-size: .8rem;
-
-  }
-
-  #content .logo {
-    grid-row: 2;
-    grid-column: 1;
-    justify-self: center;
-    align-self: center;
-    font-family: "Rock Salt", cursive;
-    color: black;
-    border-bottom: 1px solid black;
-
-  }
-  
-  #content .life {
-    grid-row: 3;
-    grid-column: 1;
-    justify-self: start;
-    align-self: end;
-  text-style-decoration: none;
-
-  }
-  #content .passion {
-    grid-row: 4;
-    grid-column: 1;
-    justify-self: end;
-  }
-
-  #content .business {
-    grid-row: 5;
-    grid-column: 1;
-    justify-self: start;
-  }
-  #content .products {
-    grid-row: 6;
-    grid-column: 1;
-    justify-self: end;
-  }
-  #content footer{
-    grid-row: 7;
-    grid-column: 1;
-    justify-self: start;
-  }
+@media (max-width:480px) {
+#content {
+height : 100%;
+font-size : 0.8rem;
+}
+#content .logo {
+grid-row : 2;
+grid-column : 1;
+align-self : center;
+font-family : "Rock Salt", cursive;
+color : black;
+border-bottom : 1px solid black;
+}
+#content .life {
+grid-row : 3;
+grid-column : 1;
+}
+#content .passion {
+grid-row : 4;
+grid-column : 1;
+}
+#content .business {
+grid-row : 5;
+grid-column : 1;
+}
+#content .products {
+grid-row : 6;
+grid-column : 1;
+}
+#content .ending {
+grid-row : 7;
+grid-column : 1;
+}
 }
