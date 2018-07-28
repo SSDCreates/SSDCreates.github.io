@@ -1,0 +1,67 @@
+body
+  margin 0
+  padding 0
+  font-family 'Inknut Antiqua'
+header
+  text-align center
+  background #36B5BF
+  margin 0
+  h1
+    color #222222
+    margin 0
+    font-size 47px
+    padding 20px
+    animation-duration 1s
+    animation-name slidein
+  @keyframes slidein
+    from{
+      margin-left 300%
+      width 300%
+    }
+    to{
+      margin-left 0%
+      width 100%
+    }
+nav
+  background #7A7E8E
+ul
+  display flex
+  justify-content space-around
+  li
+    padding 10px
+    list-style none
+    a
+      text-decoration none
+      color #FFFFFF
+      padding 0 10px
+      border-radius 4px
+    a:hover
+      background #FFFFFF
+      color #1C5D99
+.content
+  display flex
+  justify-content space-around
+  color #2f2f2f
+section
+  margin 80px
+  ul
+    display block
+    a
+      color #2f2f2f
+footer
+  font-size 1rem
+  background #222222
+  color #FFFFFF
+  display flex
+  .about
+    margin 0 auto
+    vertical-align top
+    ul
+      flex-direction column
+      li
+        font-size .8rem
+
+@media(max-width 500px)
+  .content
+    display flex
+    flex-flow column
