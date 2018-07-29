@@ -35,7 +35,7 @@ header nav .sidebar {
   height: 0;
   position: fixed;
   background: #2f2f2f;
-  opacity: 0.9;
+  opacity: 0;
   color: #b09b1e;
   font-family: Rockwell;
   z-index: 1;
@@ -43,6 +43,8 @@ header nav .sidebar {
 header nav .toggle {
   width: 250px;
   height: 100%;
+  transition: 2s;
+  opacity: 0.9;
 }
 header nav .toggle ul {
   list-style: none;
