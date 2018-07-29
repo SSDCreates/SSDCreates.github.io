@@ -17,6 +17,7 @@ header
   img
     width 200px
     float left
+    padding 20px
   h1
     color #222222
     margin 0
@@ -69,12 +70,16 @@ footer
   background: linear-gradient(to right, #434343, #000000)
   color #FFFFFF
   display flex
+  flex-direction row
+  justify-content space-around
   .about
-    margin 0 auto
     vertical-align top
+    margin 0 auto
     ul
+      display flex
       flex-direction column
       li
+
         font-size .8rem
         padding 0
 
@@ -82,3 +87,5 @@ footer
   .content
     display flex
     flex-flow column
+  footer
+    flex-direction column
