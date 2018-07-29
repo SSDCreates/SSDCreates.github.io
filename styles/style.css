@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
   font-family: 'Neucha', cursive;
   background: #2f2f2f;
 }
@@ -30,7 +31,7 @@ html {
   align-items: center;
   flex-flow: row;
   height: 500px;
-  background: #fff;
+  height: 200px;
 }
 .second h2 {
   margin-left: 70px;
@@ -44,9 +45,6 @@ html {
   border-radius: 15px;
   margin: 30px;
   height: 357px;
-}
-.second img {
-  color: #fff;
 }
 .third {
   margin: 0;
@@ -234,4 +232,18 @@ html {
 }
 .eleventh img {
   order: -1;
+}
+@media (max-width: 700px) {
+  body * {
+    font-size: 50px;
+    width: 300px;
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+  body * img {
+    width: 100% !important;
+    margin: 0 auto !important;
+    height: 250px !important;
+  }
 }
