@@ -1,0 +1,96 @@
+body, html
+  margin 0
+  padding 0
+  background url('../paperBG.jpg')
+  background-size cover
+  background-attachment fixed
+  font-family "Old English Text MT"
+
+header
+  text-align center
+
+  nav
+    display flex
+    flex-flow row
+    justify-content flex-end
+    i
+      position absolute
+      left 10px
+      top 10px
+    a
+      padding 20px
+      font-size 20px
+      text-decoration none
+      color black
+      text-shadow 1px 1px 1px white
+    .sidebar
+      width 0
+      height 0
+      position fixed
+      background #2f2f2f
+      opacity .9
+      color #b09b1e
+      font-family Rockwell
+      z-index 1
+    .toggle
+      width 250px
+      height 100%
+      ul
+        list-style none
+        li
+          font-size 30px
+          padding 30px
+          text-align center
+          a
+            color #b09b1e
+            text-shadow 1px 1px 1px black
+
+  h1
+    font-size 105px
+    margin 0
+    padding 0
+  h2
+    font-size 50px
+img
+  display block
+  border-radius 8px
+  margin 0 auto
+  margin-bottom 50px
+  width 60%
+  box-shadow 3px 3px 3px black
+
+section
+  display flex
+  justify-content center
+  .content
+    margin 0 30px
+    text-align center
+  .side
+    border-right 4px solid black
+    border-left 4px solid black
+  h3
+    font-size 50px
+    align-self flex-start
+    margin 0
+    padding 0 15px
+  p
+    font-size 30px
+@media(max-width 500px)
+  header
+    nav
+      a
+        font-size 25px
+    h1
+      font-size 38px
+    h2
+      font-size 28px
+  img
+    width 100%
+  section
+    display block
+    h3
+      font-size 30px
+    p
+      font-size 20px
+    .side
+      border none
