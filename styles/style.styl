@@ -1,95 +1,96 @@
-
-html, body
-  height 100%
-  width 100%
-  margin 0
-  padding 0
-  font-family 'Inknut Antiqua'
-header
-  text-align center
-  background: #283048
-  background: -webkit-linear-gradient(to right, #859398, #283048)
-  background: linear-gradient(to right, #859398, #283048)
-
-
-  margin 0
-  // background-image url("wallpaperBG.jpg")
-  background-position center
-  background-size cover
-
-  img
-    width 200px
-    float left
-    padding 20px
-  h1
-    color #222222
-    margin 0
-    font-size 47px
-    padding 50px
-    animation-duration 1s
-    animation-name slidein
-  @keyframes slidein
-    from{
-      margin-left 300%
-      width 300%
-    }
-    to{
-      margin-left 0%
-      width 100%
-    }
-nav
-  background: #000000
-  background: -webkit-linear-gradient(to right, #434343, #000000) 
-  background: linear-gradient(to right, #434343, #000000)
-
-ul
-  display flex
-  justify-content space-around
-  li
-    padding 10px
-    list-style none
-    a
-      text-decoration none
-      color #FFFFFF
-      padding 0 10px
-      border-radius 4px
-    a:hover
-      background #FFFFFF
-      color #1C5D99
-.content
-  display flex
-  justify-content space-around
-  color #2f2f2f
-section
-  margin 80px
-  ul
-    display block
-    a
-      color #2f2f2f
-footer
-  font-size 1rem
-  background: #000000
-  background: -webkit-linear-gradient(to right, #434343, #000000) 
-  background: linear-gradient(to right, #434343, #000000)
-  color #FFFFFF
-  display flex
-  flex-direction row
-  justify-content space-around
-  .about
-    vertical-align top
-    margin 0 auto
-    ul
-      display flex
-      flex-direction column
-      li
-
-        font-size .8rem
-        padding 0
-
-@media(max-width 500px)
-  .content
+align-section()
+    background-size cover
+    background-attachment fixed
     display flex
     flex-flow column
-  footer
-    flex-direction column
- 
+    justify-content center
+    align-items center
+red = #AC2929
+link-content()
+    align-section()
+    flex-flow row
+    height 500px
+    h2
+        margin-left 70px
+        align-self flex-center
+        font-size 70px
+        color red
+    img
+        align-self center
+        width 900px 
+        border-radius 15px
+        margin 30px
+        height 357px
+
+body, html
+    margin 0
+    padding 0
+    height 100%
+    font-family 'Neucha', cursive
+    background #2f2f2f
+.top
+    background url('../images/code.jpg')
+    height 858px
+    align-section() 
+    font-size 100px
+    color white
+    h1
+        margin 0
+.second
+    link-content()
+    background white
+    img
+        color white
+.third 
+    margin 0
+    background url('../images/chess.jpg')
+    align-section() 
+    position justify
+    height 765px
+    color white
+    font-size 100px
+.fourth
+    align-section()
+    flex-flow row
+    height 580px
+    h2
+        margin-left 70px
+        align-self flex-center
+        font-size 80px
+        color red
+    img
+        align-self center
+        width 900px 
+        border-radius 15px
+        margin 30px
+.fifth
+    background url('../images/projects.jpg')
+    align-section()
+    height 723px
+    font-size 100px
+    color white
+.sixth
+    link-content()
+.seventh
+    link-content()
+    h2
+        order 2
+    img
+        order -1
+.eighth
+    link-content()
+.ninth
+    background url('../images/aboutimg.jpeg')
+    align-section()
+    height 723px
+    font-size 100px
+    color white
+.tenth
+    link-content()
+.eleventh
+    link-content()
+    h2
+        order 2
+    img
+        order -1
+

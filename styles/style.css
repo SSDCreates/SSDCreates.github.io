@@ -1,138 +1,237 @@
-html,
-body {
+body,
+html {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: 'Inknut Antiqua';
+  font-family: 'Neucha', cursive;
+  background: #2f2f2f;
 }
-header {
-  text-align: center;
-  background: #283048;
-  background: -webkit-linear-gradient(to right, #859398, #283048);
-  background: linear-gradient(to right, #859398, #283048);
-  margin: 0;
-  background-position: center;
+.top {
+  background: url("../images/code.jpg");
+  height: 858px;
   background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: #fff;
 }
-header img {
-  width: 200px;
-  float: left;
-  padding: 20px;
-}
-header h1 {
-  color: #222;
+.top h1 {
   margin: 0;
-  font-size: 47px;
-  padding: 50px;
-  animation-duration: 1s;
-  animation-name: slidein;
 }
-@-moz-keyframes slidein {
-  from {
-    margin-left: 300%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-@-webkit-keyframes slidein {
-  from {
-    margin-left: 300%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-@-o-keyframes slidein {
-  from {
-    margin-left: 300%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-@keyframes slidein {
-  from {
-    margin-left: 300%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-nav {
-  background: #000;
-  background: -webkit-linear-gradient(to right, #434343, #000);
-  background: linear-gradient(to right, #434343, #000);
-}
-ul {
+.second {
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
-  justify-content: space-around;
-}
-ul li {
-  padding: 10px;
-  list-style: none;
-}
-ul li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 0 10px;
-  border-radius: 4px;
-}
-ul li a:hover {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 500px;
   background: #fff;
-  color: #1c5d99;
 }
-.content {
-  display: flex;
-  justify-content: space-around;
-  color: #2f2f2f;
+.second h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 70px;
+  color: #ac2929;
 }
-section {
-  margin: 80px;
+.second img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+  height: 357px;
 }
-section ul {
-  display: block;
-}
-section ul a {
-  color: #2f2f2f;
-}
-footer {
-  font-size: 1rem;
-  background: #000;
-  background: -webkit-linear-gradient(to right, #434343, #000);
-  background: linear-gradient(to right, #434343, #000);
+.second img {
   color: #fff;
+}
+.third {
+  margin: 0;
+  background: url("../images/chess.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: justify;
+  height: 765px;
+  color: #fff;
+  font-size: 100px;
 }
-footer .about {
-  vertical-align: top;
-  margin: 0 auto;
-}
-footer .about ul {
+.fourth {
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 580px;
 }
-footer .about ul li {
-  font-size: 0.8rem;
-  padding: 0;
+.fourth h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 80px;
+  color: #ac2929;
 }
-@media (max-width: 500px) {
-  .content {
-    display: flex;
-    flex-flow: column;
-  }
-  footer {
-    flex-direction: column;
-  }
+.fourth img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+}
+.fifth {
+  background: url("../images/projects.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 723px;
+  font-size: 100px;
+  color: #fff;
+}
+.sixth {
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 500px;
+}
+.sixth h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 70px;
+  color: #ac2929;
+}
+.sixth img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+  height: 357px;
+}
+.seventh {
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 500px;
+}
+.seventh h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 70px;
+  color: #ac2929;
+}
+.seventh img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+  height: 357px;
+}
+.seventh h2 {
+  order: 2;
+}
+.seventh img {
+  order: -1;
+}
+.eighth {
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 500px;
+}
+.eighth h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 70px;
+  color: #ac2929;
+}
+.eighth img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+  height: 357px;
+}
+.ninth {
+  background: url("../images/aboutimg.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 723px;
+  font-size: 100px;
+  color: #fff;
+}
+.tenth {
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 500px;
+}
+.tenth h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 70px;
+  color: #ac2929;
+}
+.tenth img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+  height: 357px;
+}
+.eleventh {
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 500px;
+}
+.eleventh h2 {
+  margin-left: 70px;
+  align-self: flex-center;
+  font-size: 70px;
+  color: #ac2929;
+}
+.eleventh img {
+  align-self: center;
+  width: 900px;
+  border-radius: 15px;
+  margin: 30px;
+  height: 357px;
+}
+.eleventh h2 {
+  order: 2;
+}
+.eleventh img {
+  order: -1;
 }
